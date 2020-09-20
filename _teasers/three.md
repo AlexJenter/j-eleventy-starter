@@ -1,8 +1,8 @@
 ---
 label: 500px
 link: example.com
-logo: "aviato-brands.svg"
+logo: "bluetooth-b-brands.svg"
 platform: ruby
 ---
 
-hello teaser one
+hello teaser two

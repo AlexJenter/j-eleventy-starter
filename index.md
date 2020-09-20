@@ -1,8 +1,9 @@
 ---
+title: All the Stuffs!
 layout: default
 ---
 
-# All the Stuff!
+# All the Stuffs!
 
 <ul>
 {%- for t in collections.teasers -%}
