@@ -2,13 +2,10 @@
 layout: default
 ---
 
-# Hello dudu
+# All the Stuff!
 
 <ul>
-{%- for teaser in collections.teasers -%}
-  <li>
-    {{ teaser.data.label }}
-    {{ teaser.templateContent }}
-  </li>
+{%- for t in collections.teasers -%}
+  {% include teaser with t  %}
 {%- endfor -%}
 </ul>
